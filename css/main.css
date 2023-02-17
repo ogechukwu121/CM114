@@ -1,0 +1,57 @@
+body {
+    background-color:blue;
+
+}
+
+*{
+    background-color:"blue;
+    }
+
+    p{
+       color:green;
+    }
+
+    p,hi,h2,h3,h4,h5,h6,p{
+        color:green;
+    }
+
+    #menu{
+           border-style:solid;
+    }
+
+    .pics{
+        border-radius:50%;
+    }
+
+    #menu p{
+        color:green;
+    }
+
+    h1 + .pics{
+        border-radius:50%;
+    }
+
+    div:hover{
+        background-color:blue;
+    }
+
+nav li{
+    border:2px solid green;
+    background-color:green;
+    list-style-type:None;
+}
+
+nav li a {
+    color:white;
+    text-align:center;
+    text-decoration:None;
+}
+
+
+nav li:hover {
+    background-color:greenyellow;
+}
+
+.active {
+    background-color:black;
+}
