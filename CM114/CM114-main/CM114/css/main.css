@@ -1,0 +1,123 @@
+header {
+    background-color:blue;
+    padding: 20px;
+    border: 10px solid gray;
+    margin: 20px;
+
+}
+
+#logo {
+    width: 50px;
+    height: 50px;
+    float: left;
+    margin-right: 10px;
+}
+
+#left-col {
+    float: left;
+    width: 50%;
+}
+
+#right-col{
+   padding: 10px;
+}
+
+#bottom-col {
+    float: left;
+    width: 50%;
+}
+
+#top-col {
+    float: left;
+    width: 50%;
+}
+h1 {
+    color: green;
+    width: 60%;
+    display: inline;
+}
+
+
+    p{
+       color:green;
+    }
+
+    p,h1,h2,h3,h4,h5,h6,p{
+        color:green;
+    }
+
+    #menu{
+           border-style:solid;
+    }
+
+    .pics{
+        border-radius:50%;
+    }
+
+    #menu p{
+        color:green;
+    }
+
+    h1 + .pics{
+        border-radius:50%;
+    }
+
+    div:hover{
+        background-color:blue;
+    }
+nav ul {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+nav li{
+    border: 2px solid green;
+    background-color:green;
+    list-style-type:None;
+    float: left;
+    width: 10%;
+    padding: 5px;
+}
+
+nav li a {
+    color:white;
+    text-align: center;
+    text-decoration: None;
+}
+
+
+nav li:hover {
+    background-color:greenyellow;
+}
+
+.active {
+    background-color:black;
+}
+
+header {
+    margin: 20px;
+
+}
+
+aside {
+    background-color:blue;
+    margin: 20px;
+
+}
+
+footer {
+    background-color:blue;
+    margin: 20px;
+
+}
+
+main {
+    background-color:blue;
+    margin: 20px;
+
+}
+
+#login {
+    float: right;
+}
