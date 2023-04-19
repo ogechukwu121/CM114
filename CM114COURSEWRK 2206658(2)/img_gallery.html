@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<!-- Threat Model - Images on Image Gallery -->
+<!--
+Threat Source: External
+Threat Agent: Human or Bot
+Threat Intention: Unauthorized access, modification or deletion
+Threat Motivation: To deface the website or steal images
+Threat Impact: Loss of images, defacement of website, potential identity theft
+Threat Mitigation: Secure image upload process with validation checks, image backup and restoration capabilities, access control lists to restrict modification or deletion of images, regular monitoring of access logs for suspicious activity
+-->
+<head>
+    <title>Ogechi Tongas Group</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+        crossorigin="anonymous"></script>
+    <link rel='stylesheet' href='css/main.css'>
+</head>
+
+<body>
+    <!-- script for the gallery display-->
+    <script>
+        document.getElementById("img1").addEventListener("mouseover", highlight);
+        document.getElementById("img2").addEventListener("mouseout", delight);
+        document.getElementById("img3").addEventListener("mouseover", highlight);
+        document.getElementById("img4").addEventListener("mouseout", delight);
+        document.getElementById("img5").addEventListener("mouseover", highlight);
+        document.getElementById("img6").addEventListener("mouseout", delight);
+        document.getElementById("img7").addEventListener("mouseover", highlight);
+        document.getElementById("img8").addEventListener("mouseout", delight);
+        document.getElementById("img9").addEventListener("mouseover", highlight);
+        document.getElementById("img10").addEventListener("mouseout", delight);
+        document.getElementById("img11").addEventListener("mouseover", highlight);
+        document.getElementById("img12").addEventListener("mouseout", delight);
+
+        function highlight(id) {
+            document.getElementById(id).style = "border: solid blue 2px;"
+        }
+        function delight(id) {
+            document.getElementById(id).style = "border: none;"
+        }
+    </script>
+    <header>
+        <!--logo -->
+        <img src="Images/LOGO1.png" id="logo"alt="OTG DEPOT"/>
+        <!-- the heading-->
+        <h1 class="glow">OGECHI TONGA'S ENTERPRISE</h1>
+        
+    </header>
+    <!--the navigation bar -->
+     <nav>
+         <ul>
+             <li><a href="index.html">HOME</a></li>
+             <li><a href="img_gallery.html">GALLERY</a></li>
+             <li><a href="event_calendar.html">EVENT CALENDAR</a></li>
+             <li><a href="current_members.html">CURRENT MEMBERS</a></li>
+             <li><a href="contact.html">CONTACT US</a></li> 
+             <li><a href="about.html">ABOUT US</a></li> 
+             <li><a href="FAQ.html"> FAQ</a></li> 
+             <li><a href="reach.html">REACH US</a></li> 
+         </ul>
+     </nav>
+     </header>
+
+    <main>
+        <!-- <div>
+                <img src="Images/Cement1.jpg" alt="Offload of the Truck"/>
+                <img src="Images/Cement2.jpg" alt="Arranging in line for counting"/>
+                <img src="Images/Cement3.jpg" alt="Truck load of Cement"/>
+                <img src="Images/Cement4.jpg" alt="Full Truck load of Cement"/>
+                <img src="Images/Cement5.jpg" alt="Delivered to our customer on site"/>
+                <img src="Images/Cement6.jpg" alt="Packed in front of our warehouse"/>
+            </div> -->
+                    <div id="img-gallery" class="container">
+                        <div class="row">
+                            <div class="col-sm">
+                                <img src="Images/Cement1.jpg" id="img1" onmouseover="highlight(this)" onmouseout="delight(this)" class="gallery-img" alt="Cement Offload Started" />
+                                </div>
+
+                            <div class="col-sm">
+                                <img src="Images/Cement2.jpg" id="img2" onmouseover="highlight(this)" onmouseout="delight(this)" class="gallery-img" alt="Cement Offload in One of Our Shops" />
+                                </div>
+                          
+                            <div class="col-sm">
+                                <img src="Images/Cement3.png" id="img3" onmouseover="highlight(this)" onmouseout="delight(this)" class="gallery-img" alt="Arival of Cement from Calabar Depot" />
+                                </div>
+                                            
+                        <div class="row">
+                            <div class="col-sm">
+                                <img src="Images/Cement4.jpg" id="img4" onmouseover="highlight(this)" onmouseout="delight(this)" class="gallery-img" alt="Workers waiting to Start Offload" />                           
+                                </div>
+
+                            <div class="col-sm">
+                                <img src="Images/Cement5.png" id="img5" onmouseover="highlight(this)" onmouseout="delight(this)" class="gallery-img" alt="Cement Delivered to the sight of our customer" />
+                                </div>
+
+                            <div class="col-sm">
+                                <img src="Images/Cement6.jpeg" id="img6" onmouseover="highlight(this)" onmouseout="delight(this)" class="gallery-img" alt="Cement Offload and counting" />
+                                </div>
+                                                                        
+                        <div class="row">
+                            <div class="col-sm">
+                                <img src="Images/Building1.jfif" id="img7" onmouseover="highlight(this)" onmouseout="delight(this)" class="gallery-img" alt="Cement Delivered to the sight of our customer" />
+                                </div>
+
+                            <div class="col-sm">
+                                <img src="Images/Building2.jfif" id="img8" onmouseover="highlight(this)" onmouseout="delight(this)" class="gallery-img" alt="Cement Delivered to the sight of our customer" />
+                                </div>
+
+                            <div class="col-sm">
+                                <img src="Images/Building3.jfif" id="img9" onmouseover="highlight(this)" onmouseout="delight(this)" class="gallery-img" alt="Cement Delivered to the sight of our customer" />
+                                </div>
+                                                                                
+                        <div class="row">
+                            <div class="col-sm">
+                                <img src="Images/Building4.jfif" id="img10" onmouseover="highlight(this)" onmouseout="delight(this)" class="gallery-img" alt="Cement Delivered to the sight of our customer" />
+                                </div>                           
+
+                            <div class="col-sm">
+                                <img src="Images/Building6.jfif" id="img11" onmouseover="highlight(this)" onmouseout="delight(this)" class="gallery-img" alt="Cement Delivered to the sight of our customer" />
+                                </div>
+
+                            <div class="col-sm">
+                                <img src="Images/Cement2.jpg" id="img12" onmouseover="highlight(this)" onmouseout="delight(this)" class="gallery-img" alt="Cement Offload in One of Our Shops" />
+                                </div>
+                
+                                </div>
+                                                
+          
+                            </div>
+                                            
+     
+                        </div>
+                                        
+
+                        </main>
+                        <!--the footer -->
+                    <footer class="about">
+                        <p>&copy; Ogechi Tonga Enterprise 2023. All rights reserved.</p>
+                    </footer>
+            </body>
+                                    
+</html>

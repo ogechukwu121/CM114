@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>FAQ</title>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.1.3/css/bootstrap.min.css">
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <link rel='stylesheet' href='css/main.css'>
+    <!-- custon styling for the faq page-->
+    <style type="text/css">
+      .header{
+        border-radius: 20px 20px 0px 0px;
+        padding: 10px 0px;
+        background: rgb(243, 235, 235) (97, 97, 97);
+        color: #0a0909;
+        width: 100%;
+        display: flex;
+        align-content: center;
+        justify-content: center;
+      }
+      .faq-item{
+        margin-bottom: 40px;
+        margin-top: 40px;
+        color: rgb(242, 242, 247);
+      }
+      .faq-body{
+        display: none;
+        margin-top: 30px;
+        color: rgb(70, 9, 238);
+      }
+      .faq-wrapper{
+        width: 75%;
+        margin: 0 auto;
+      }
+      .faq-inner{
+        padding: 30px;
+        background: rgb(105, 243, 139);
+        border-radius: 10px;
+      }
+      .faq-plus{
+        float: right;
+        font-size: 1.4em;
+        line-height: 1em;
+        cursor: pointer;
+      }
+      hr{
+        background-color: #9b9b9b;
+        color: black;
+      }
+    </style>
+  </head>
+  <header>
+    <!--the logo -->
+    <img src="Images/LOGO1.png" id="logo"alt="OTG DEPOT"/>
+    <!-- the heading beside the logo-->
+    <h1 class="glow">OGECHI TONGA'S ENTERPRISE</h1>
+</header>
+<!--the navigation bar -->
+   <nav>
+       <ul>
+           <li><a href="index.html">HOME</a></li>
+           <li><a href="img_gallery.html">GALLERY</a></li>
+           <li><a href="event_calendar.html">EVENT CALENDAR</a></li>
+           <li><a href="current_members.html">CURRENT MEMBERS</a></li>
+           <li><a href="contact.html">CONTACT US</a></li> 
+           <li><a href="about.html">ABOUT US</a></li> 
+           <li><a href="FAQ.html"> FAQ</a></li> 
+           <li><a href="reach.html">REACH US</a></li> 
+       </ul>
+   </nav>
+   </header>
+        <div class="hero">
+            
+          <br>
+        </div>
+      </header>
+    <div class="container">
+      <div class="row">
+        <div class="faq-wrapper">
+          <!--the soundtrack -->
+          <audio controls>
+            <source src="sound\sound.mp3" type="audio/mpeg">
+            Your browser does not support the audio element.
+          </audio>
+          <br>
+          <!--the first paragraph -->
+          <p2>Here are some frequently asked questions...</p2> <br>
+          <div class="header">
+            <h1>FAQs</h1>
+          </div>
+          <!--the FAQ body -->
+          <div class="faq-inner">
+            <div class="faq-item">
+              <h3>
+                What types of cement does Ogechi Tonga Enterprise distribute and trade?
+                <span class="faq-plus">&plus;</span>
+              </h3>
+              <div class="faq-body">
+                Ogechi Tonga Enterprise deals with a variety of cement types, including Portland cement, white cement, masonry cement, and more. We work with reputable manufacturers to ensure the highest quality products for our customers.
+              </div>
+            </div>
+            <hr>
+            <div class="faq-item">
+              <h3>
+                How can I place an order for cement or noodles with Ogechi Tonga Enterprise?
+                <span class="faq-plus">&plus;</span>
+              </h3>
+              <div class="faq-body">
+                To place an order, simply contact us via phone, email, or our online form. We'll work with you to determine the quantity and type of product you need, as well as the most convenient delivery method for your location.
+              </div>
+            </div>
+            <hr>
+            <div class="faq-item">
+              <h3>
+                Does Ogechi Tonga Enterprise offer bulk pricing for large orders?
+                <span class="faq-plus">&plus;</span>
+              </h3>
+              <div class="faq-body">
+                Yes, we offer competitive pricing for bulk orders of cement and noodles. Contact us to discuss your specific needs and get a quote.
+              </div>
+            </div>
+            <hr>
+            <div class="faq-item">
+              <h3>
+                Where does Ogechi Tonga Enterprise distribute and trade its products?
+                <span class="faq-plus">&plus;</span>
+              </h3>
+              <div class="faq-body">
+                We primarily serve the Nigerian market, but we also work with customers in neighboring countries throughout West Africa.
+              </div>
+            </div>
+            <hr>
+            <div class="faq-item">
+              <h3>
+                How does Ogechi Tonga Enterprise ensure the quality of its products?
+                <span class="faq-plus">&plus;</span>
+              </h3>
+              <div class="faq-body">
+                We carefully select our suppliers and conduct regular quality control checks to ensure that all products meet our standards for quality and safety. Additionally, we maintain strict adherence to industry standards and regulations to ensure that our customers receive the best possible products.
+
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+<!--the script behind the functioning of the FAQ page -->
+    <script type="text/javascript">
+      $(".faq-plus").on('click',function(){
+        $(this).parent().parent().find('.faq-body').slideToggle();
+      });
+    </script>
+    <!--the footer -->
+    <footer class="about">
+      <p>&copy; Ogechi Tonga Enterprise 2023. All rights reserved.</p>
+    </footer>
+  </body>
+
+</html>
